@@ -20,7 +20,7 @@ All analysis scripts, environment settings, and processing logic are fully avail
 ---
 
 ## Repository Structure
-
+```
 ml-narrative-pace-style-analysis/
 ├── text_preprocessing.py             # Text segmentation and preprocessing
 ├── narrative_pace_analysis.py        # Narrative pace feature extraction and analysis
@@ -33,7 +33,7 @@ ml-narrative-pace-style-analysis/
 ├── .gitignore                        # Python-specific ignores
 ├── LICENSE                           # MIT License
 └── README.md                         # This file
-
+```
 ---
 
 ## Installation
