@@ -56,16 +56,19 @@ python -m spacy download en_core_web_sm
 
 ### 1. Text Preprocessing
 Segments the novel into parts, chapters, and paragraphs, and prepares data for analysis.
+```
 python text_preprocessing.py
-
+```
 ### 2. Narrative Pace Analysis
 Extracts narrative pace features (e.g., event density, perspective shift, temporal density), performs statistical tests, and generates visualizations.
+```
 python narrative_pace_analysis.py
-
+```
 ### 3. Stylistic Feature Analysis
 Computes stylistic features (e.g., syntactic complexity, repetition, sentiment), conducts clustering, and outputs visualizations.
+```
 python stylistic_features_analysis.py
-
+```
 ---
 
 ## Data Availability
@@ -76,13 +79,14 @@ Upon acceptance, both the raw and processed datasets will be made publicly avail
 
 ## Citation
 If you use or adapt the analysis scripts, please cite:
+```
 @article{pan_bi_2025,
   title = {Machine learning-enhanced end-to-end computational methods for the analysis of narrative pace and stylistic features in Virginia Woolf’s To the Lighthouse},
   author = {Pan, Yan and Bi, Liqi},
   year = {2025},
   note = {Code available at: https://github.com/BiLiqi777/ml-narrative-pace-style-analysis}
 }
-
+```
 ---
 
 ## License
