@@ -43,6 +43,7 @@ ml-narrative-pace-style-analysis/
 - Git (for cloning the repository)
 
 ### Setup
+```
 git clone https://github.com/BiLiqi777/ml-narrative-pace-style-analysis.git
 cd ml-narrative-pace-style-analysis
 python -m venv venv
